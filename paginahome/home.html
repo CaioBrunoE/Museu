@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="/img/museu-icone.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/paginahome/style home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-gray">
+    <article class="article-principal">
+        <article class="imagems-1">
+            <section class="div-section">
+                <img src="/img/museu.png" alt="museuimagem">
+            </section>
+            <section class="div-section2">
+                <img src="/img/depoimento.png" alt="depoimento">
+            </section>
+        </article>
+
+        <article class="section-home cardselc" >
+            <section id="iframeVideo" class="iframe-video cardselc ">
+                <h4 class="f_titulo2">Video:Coneça o museu</h4>
+                <iframe class="iframes" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <h4 class="f_titulo3">Exposiçoes</h4>
+                <div class="div-list">
+                    <ul>
+                        <li class="lista">Os assutadores insetos</li>
+                        <li class="lista">O crânio de Luzia,a mulher mais antiga do Brasil </li>
+                        <li class="lista">Preguiça gigante e tigre-dente-de-sabre</li>
+                        <li class="lista">Plantas do Brasil Central</li>
+                        <li class="lista">Teresa Cristina A imperatriz Arqueologica</li>
+                        <li class="lista">Arte Com Dinossauro-Paleoarte</li>
+                        <li class="lista"><a class="lista" href="#">Veja todos (65)</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="iframe-map cardselc" >
+                <h4 class="f_titulo2">Mapa encontre o Museu</h4>
+                <iframe class="iframes"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58520.28931239021!2d-46.693863858868866!3d-23.54982951745922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5858e87e68e7%3A0xdcc3da8573212301!2sPinacoteca%20de%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1684085415787!5m2!1spt-BR!2sbr"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h4 class="f_titulo3"> 200 anos de historia</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, atque tempore quibusdam
+                    voluptatum quisquam aperiam et neque perferendis tempora, recusandae doloribus ratione nostrum
+                    suscipit quam vero iure reiciendis aut! Expedita?
+                </p>
+                <a class="cor-a" href="#">saiba mais</a>
+            </section>
+
+            <section class="iframe-form cardselc" >
+                <form onsubmit="return false" class="formhome">
+                    <h4 class="f_titulo"> Faça uma visita</h4>
+
+                    <div class="F_inputs" >
+                        <div class="data">
+                        <label class="l_data" for="f_data">Data : </label>
+                        <input id="f_data" class="f_data" type="date" min="2023-05-20" value="2023-05-20" required>
+                       </div>
+                       <div class="numero">
+                        <label class="l_number" for="f_number">Pessoas : </label>
+                        <input id="f_number" class="f_number" type="number" min="1" max="20" value="1">
+                     </div>
+                    </div>
+                    <select  name="res" id="res" class="res option">
+                        <option class="option">Data: Pessoas: Valor</option>
+                    </select>
+                    <button id="f_btn" class="f_btn">Verificar Disponibilidade</button>
+                </form>
+                <section class="galeria" >
+                    <h4 class="f_titulo">Galeria de fotos</h4>
+                    <div class="g_inputs">
+                        <div class="g_imagem1">
+                            <div class="fundo-foto"><img class="tamhoimg" src="/img/imagem2.jpg" alt="fundo"></div>
+                            <div class="fundo-foto"><img class="tamhoimg" src="/img/imagem3.jpg" alt="fundo"></div>
+                        </div>
+
+                        <div class="g_imagem2">
+                            <div class="fundo-foto"><img class="tamhoimg" src="/img/imagem6.jpg" alt="fundo"></div>
+                            <div class="fundo-foto"><img class="tamhoimg" src="/img/imagem4.jpg" alt="fundo"></div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </article>
+    </article>
+
+    <script src="/pgindex/script.js"></script>
+    <script src="scripthome.js"></script>
+    <script src="https://kit.fontawesome.com/efdecb50b1.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
